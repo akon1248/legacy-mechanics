@@ -1,0 +1,7 @@
+name: LegacyMechanics
+version: '${version}'
+
+main: com.akon.legacymechanics.LegacyMechanics
+bootstrapper: com.akon.legacymechanics.LegacyMechanicsPluginBootstrap
+api-version: '1.21.11'
+load: POSTWORLD

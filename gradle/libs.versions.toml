@@ -1,0 +1,22 @@
+[versions]
+kotlin = "2.3.20"
+shadow = "9.4.1"
+paperweight-userdev = "2.0.0-beta.21"
+run-paper = "2.3.1"
+purpur = "1.21.11-R0.1-SNAPSHOT"
+ignite-api = "1.2.1"
+fuel-loader = "1.1"
+sponge-mixin = "0.17.1+mixin.0.8.7"
+mixinextras = "0.5.4"
+
+[libraries]
+ignite-api = { module = "space.vectrix.ignite:ignite-api", version.ref = "ignite-api" }
+fuel-loader = { module = "com.github.akon1248:FuelLoader", version.ref = "fuel-loader" }
+sponge-mixin = { module = "net.fabricmc:sponge-mixin", version.ref = "sponge-mixin" }
+mixinextras-common = { module = "io.github.llamalad7:mixinextras-common", version.ref = "mixinextras" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
+paperweight-userdev = { id = "io.papermc.paperweight.userdev", version.ref = "paperweight-userdev" }
+run-paper = { id = "xyz.jpenilla.run-paper", version.ref = "run-paper" }
