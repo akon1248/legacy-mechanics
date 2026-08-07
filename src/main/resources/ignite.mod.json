@@ -1,0 +1,7 @@
+{
+  "id": "legacy_mechanics",
+  "version": "${version}",
+  "mixins": [
+    "mixins.legacymechanics.json"
+  ]
+}

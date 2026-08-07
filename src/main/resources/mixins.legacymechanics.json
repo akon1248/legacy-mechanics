@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.akon.legacymechanics.mixin",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "melee.PlayerMixin",
+    "hitsounds.PlayerMixin",
+    "food.FoodDataMixin",
+    "effects.MobEffectAttributeTemplateMixin",
+    "armor.CombatRulesMixin",
+    "damageparticles.PlayerMixin",
+    "itemview.PacketEncoderMixin",
+    "itemview.ItemStackOptionalStreamCodecMixin",
+    "itemview.ComponentSerializationStreamCodecMixin",
+    "protection.CombatRulesMixin",
+    "protection.LevelBasedValueMixin",
+    "itemview.ServerGamePacketListenerImplMixin",
+    "defaultcomponents.ItemAccessor",
+    "enchantmentsync.RegistrySynchronizationMixin",
+    "swordblock.LivingEntityMixin",
+    "potionparticles.LivingEntityMixin",
+    "damagetilt.ServerPlayerMixin",
+    "enchanting.EnchantmentMenuMixin",
+    "enchanting.PlayerMixin",
+    "freeblazepowder.BrewingStandMenuMixin",
+    "freeblazepowder.BrewingStandBlockEntityMixin",
+    "potioncolors.MobEffectAccessor",
+    "potioncolors.MobEffectsMixin"
+  ]
+}
